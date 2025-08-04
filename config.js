@@ -31,9 +31,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/gnnpy9.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "AKASH-2007-MD 💫",
+BOT_NAME: process.env.BOT_NAME || "AKASH-2007-MD💫",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "AKASH-2007-MD 💫",
+STICKER_NAME: process.env.STICKER_NAME || "AKASH-2007-MD💫",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
