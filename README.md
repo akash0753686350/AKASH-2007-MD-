@@ -1,4 +1,4 @@
-<h1 align="start">𝐍͡ᴀɪᴍᴀ 𝐓ᴇᴄʜ͡𝐗 🐍💀/-</h1>
+<h1 align="start">AKASH-2007-MD💫 🐍💀/-</h1>
 
 <p align="start">
   <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square"/>
