@@ -219,7 +219,7 @@ if (!isReact && senderNumber === botNumber) {
   })
   }
   app.get("/", (req, res) => {
-  res.send("hey, Arslan-Ultra-MD started✅");
+  res.send("hey, AKASH-2007-MD💫 started✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
