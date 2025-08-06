@@ -19,7 +19,7 @@ const {
   const { File } = require('megajs')
   const prefix = '.'
   
-  const ownerNumber = ['923237045919']
+  const ownerNumber = ['94753686350]
   
   //===================SESSION-AUTH============================
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -67,25 +67,25 @@ const {
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('your name connected to whatsapp ✅')
+  console.log('AKASH-2007-MD💫 connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      your name           
+  ║      AKASH-2007-MD💫           
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
   ╟─────────────────╢
-  ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊         
-  ║ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306              
+  ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊         https://whatsapp.com/channel/0029VbBLfS1I1rcb3LMctq25
+  ║               
   ╟─────────────────╢
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
-  ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
+  ║ https://wa.me/+94753686360                 
   ╠═════════════════╣
-  ║      your name               
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ your name       
+  ║      AKASH-2007-MD💫               
+  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ AKASH-2007-MD💫       
   ╚═════════════════╝
 `;
-  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
+  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/gnnpy9.jpg` }, caption: up })
   
   }
   })
@@ -181,7 +181,7 @@ const {
 
 //owner react
 
-if(senderNumber.includes("923237045919")){
+if(senderNumber.includes("94753686350")){
   if(isReact)return;
   m.react("🔓");  }
 
