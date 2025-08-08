@@ -55,8 +55,8 @@ _Email will expire after 24 hours_
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: 'TempMail Service',
+                        newsletterJid: '120363418238379872@newsletter',
+                        newsletterName: 'TempMail Service AKASH-MD-V4',
                         serverMessageId: 101
                     }
                 }
