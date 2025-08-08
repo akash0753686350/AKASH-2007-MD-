@@ -444,7 +444,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         await conn.sendMessage(from, { image: { url: data.message }, caption: '> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 ❣️*> ' }, { quoted: mek });
     } catch (e) {
-        console.log(e); // ❯❯ Powered by 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 👑
+        console.log(e); // ❯❯ Powered by AKASH-MD-V4 👑
         reply(`єяяσя ƒєт¢нιηg ∂σg ιмαgє: ${e.message}`);
     }
 });
