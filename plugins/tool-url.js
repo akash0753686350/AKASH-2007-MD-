@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 ❤️`
+      `> © Uploaded by AKASH-MD-V4 ❤️`
     );
 
   } catch (error) {
