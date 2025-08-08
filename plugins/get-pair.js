@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 Bot",
+    desc: "Get pairing code for AKASH-MD-V4 Bot",
     category: "download",
-    use: ".pair +923237045919",
+    use: ".pair +94753686350",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -16,7 +16,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +923237045XXX");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +943237045XXX");
         }
 
         // Make API request to get pairing code
@@ -49,9 +49,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 bot",
+    desc: "Get pairing code for AKASH-MD-V4 bot",
     category: "download",
-    use: ".pair +923237045919",
+    use: ".pair +94753686350",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -60,7 +60,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +923237045919");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +94753686350");
         }
 
         // Make API request to get pairing code
@@ -71,7 +71,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 PAIRING COMPLETED*";
+        const doneMessage = "> *AKASH-MD-V4 PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
