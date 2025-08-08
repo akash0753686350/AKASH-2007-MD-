@@ -26,7 +26,7 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your Arslan_MD bot is already up-to-date!");
+            return reply("✅ Your AKASH-MD-V4 bot is already up-to-date!");
         }
 
         await reply("🚀 Updating Arslan_MD Bot...");
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "Arslan_MD-main");
+        const sourcePath = path.join(extractPath, "AKASH-MD-V4-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
